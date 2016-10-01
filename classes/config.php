@@ -1,12 +1,16 @@
 <?php
 
-$sql_set = [ "host"     => "localhost",
+$sql_set = [
+
+    "host"     => "localhost",
     "port"     => "3306",
     "db"       => "ragnarok",
     "user"     => "ragnarok",
     "password" => "ragnarok" ];
 
-$emu_set = [ "LIp"      => "localhost",
+$emu_set = [
+
+    "LIp"      => "localhost",
     "LPort"    => 6900,
     "CIp"      => "localhost",
     "CPort"    => 6121,
