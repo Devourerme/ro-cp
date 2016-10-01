@@ -4,14 +4,14 @@ session_start();
 
 $GLOBALS['config'] = array(
 
-    'mysql'     => array(
+    'mysql' => array(
         'host'      => '127.0.0.1',
         'username'  => 'ragnarok',
         'password'  => 'ragnarok',
         'database'  => 'ragnarok'
     ),
 
-    'remember'      => array(
+    'remember' => array(
         'cookie'        => 'hash',
         'cookie_expiry' => 604800
     ),
@@ -25,4 +25,4 @@ spl_autoload_register(function($class){
     require_once 'classes/' . $class . '.php';
 });
 
-require_once 'functions/sanitize.php';
+require_once '/../functions/sanitize.php';
