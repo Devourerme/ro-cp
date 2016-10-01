@@ -1,19 +1,23 @@
 <?php
 
-$sql_set = [
+class Config {
 
-    "host"     => "localhost",
-    "port"     => "3306",
-    "db"       => "ragnarok",
-    "user"     => "ragnarok",
-    "password" => "ragnarok" ];
+    public static function  get($path = null){
+        if($path){
 
-$emu_set = [
+            $config = $GLOBALS['config'];
+            $path = explode('/', $path);
 
-    "LIp"      => "localhost",
-    "LPort"    => 6900,
-    "CIp"      => "localhost",
-    "CPort"    => 6121,
-    "MIp"      => "localhost",
-    "MPort"    => 5121,
-    "useMD5"   => 1 ];
+            foreach($path as $bit){
+
+                if(isset($config[$bit])){
+                    $config = $config[$bit];
+                }
+            }
+
+            return $config;
+        }
+
+        return false;
+    }
+}
