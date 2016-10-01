@@ -1,3 +1,2 @@
 <?php
-include_once('config/settings.php');
-?>
+require_once 'core/init.php';
