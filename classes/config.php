@@ -14,10 +14,8 @@ class Config {
                     $config = $config[$bit];
                 }
             }
-
             return $config;
         }
-
         return false;
     }
 }
