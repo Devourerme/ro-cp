@@ -7,9 +7,3 @@ Requirements
 ---------
 * PHP 5
 * PDO and PDO-MYSQL extensions
-
-Authors
----------
-The following people have contributed to the development of RO-CP
-
-* Nerual
