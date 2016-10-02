@@ -1,6 +1,5 @@
 RO-CP
 ======
-
 An Control Panel written in PHP using OOP techniques for Hercules (A Ragnarok Online Server Emulator.)
 
 Requirements
@@ -15,4 +14,4 @@ This is a Project I started with the purpose of:
 * Learning how to use GIT
 * An Excuse to drink more Coffee :)
 
-This should NOT be used in a production environment!!
+This should NOT be used in a production environment as it is written by a novice in PHP development it will likely be full of bugs and vulnerabilities!!
