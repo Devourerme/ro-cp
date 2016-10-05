@@ -4,7 +4,7 @@ An Control Panel written in PHP for Hercules (A Ragnarok Online Server Emulator.
 
 Requirements
 ---------
-* PHP 5
+* PHP 5+ (?)
 * PDO and PDO-MYSQL extensions
 
 About
